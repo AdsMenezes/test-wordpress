@@ -2003,7 +2003,7 @@ class wpdb {
 				die();
 			}
 
-			$message = '<h1>' . __( 'Error establishing a database connection1' ) . "</h1>\n";
+			$message = '<h1>' . __( 'Error establishing a database connection2' ) . "</h1>\n";
 
 			$message .= '<p>' . sprintf(
 				/* translators: 1: wp-config.php, 2: Database host. */
