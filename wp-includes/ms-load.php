@@ -472,7 +472,7 @@ function ms_not_installed( $domain, $path ) {
 
 	wp_load_translations_early();
 
-	$title = __( 'Error establishing a database connection' );
+	$title = __( 'Error establishing a database connection1' );
 
 	$msg   = '<h1>' . $title . '</h1>';
 	$msg  .= '<p>' . __( 'If your site does not display, please contact the owner of this network.' ) . '';
